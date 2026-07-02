@@ -36,3 +36,9 @@ Thumbs.db
 # Temporary files
 Documents/Temp_Document/*
 !Documents/Temp_Document/README.md
+temp_docs/
+Temp_Docs/
+TempDocs/
+**/temp_docs/
+**/Temp_Docs/
+**/TempDocs/
