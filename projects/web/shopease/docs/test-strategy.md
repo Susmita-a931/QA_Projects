@@ -17,6 +17,15 @@ Validate the public ShopEase demo website with reliable browser automation and u
 - Browser console error monitoring.
 - Desktop and mobile rendering smoke coverage.
 
+## Automation Design
+
+- Feature specs are split by product area for easier ownership and review.
+- Page objects hold page-level actions and selectors.
+- Shared data holds reusable inputs, expected results, and known defect labels.
+- Helpers handle reusable parsing, such as product names and prices.
+- Headless runs are parallel for speed.
+- Headed runs use one worker for easier human observation.
+
 ## Out Of Scope
 
 - Real payment processing.

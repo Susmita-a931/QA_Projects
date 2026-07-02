@@ -26,8 +26,23 @@ The suite currently documents 10 confirmed product defects in [docs/bug-log.md](
 pnpm install
 pnpm test
 pnpm test:smoke
+pnpm test:headed
 pnpm report
 ```
+
+Headed mode runs with one worker so the browser flow is easy to observe. Normal test runs stay parallel for faster feedback.
+
+## Test Architecture
+
+```text
+tests/
+  data/       shared test data and known defect labels
+  fixtures/   page objects and page-level actions
+  helpers/    reusable assertions and parsers
+  specs/      feature-focused test suites
+```
+
+The suite keeps scenarios readable by placing page interactions in page objects and reusable catalog parsing in helpers.
 
 ## Evidence
 

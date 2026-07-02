@@ -12,5 +12,5 @@ Write-Host "Running ShopEase tests..."
 if ($args.Count -gt 0) {
   & $pnpm exec playwright test @args
 } else {
-  & $pnpm exec playwright test --headed
+  & $pnpm exec playwright test --headed --workers=1
 }

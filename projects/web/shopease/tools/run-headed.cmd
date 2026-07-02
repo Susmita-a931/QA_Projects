@@ -9,7 +9,7 @@ node --version
 echo Running ShopEase tests...
 
 if "%~1"=="" (
-  "%PNPM%" exec playwright test --headed
+  "%PNPM%" exec playwright test --headed --workers=1
 ) else (
   "%PNPM%" exec playwright test %*
 )
