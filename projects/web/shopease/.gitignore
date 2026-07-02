@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+evidence/reports/playwright-html/
+evidence/reports/junit/
+evidence/videos/raw/
+evidence/screenshots/raw/
+playwright-report/
+blob-report/
+.env

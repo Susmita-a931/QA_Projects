@@ -71,4 +71,10 @@ For a quick review, start with [qa-portfolio-master-plan.md](docs/qa-portfolio-m
 
 ## Current Status
 
-Foundation is ready. Project implementations will be added under `projects/` with daily evidence under `evidence/daily-runs/`.
+Foundation is ready. The first web proof project is available under [projects/web/shopease](projects/web/shopease/).
+
+Current project proof:
+
+| Project | Type | Status |
+| --- | --- | --- |
+| [ShopEase](projects/web/shopease/) | Web QA automation | Initial Playwright suite completed with documented defects |
