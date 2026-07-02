@@ -21,9 +21,9 @@ pnpm lint
 
 ## Result
 
-- Total checks: 24
-- Passed: 24
-- Known product defects covered as expected failures: 4 results across 2 defects and 2 browser profiles
+- Total checks: 44
+- Passed: 44
+- Known product defects covered as expected failures: 20 results across 10 defects and 2 browser profiles
 - Failed unexpectedly: 0
 
 ## Coverage
@@ -34,13 +34,24 @@ pnpm lint
 - Product quantity and cart feedback.
 - Contact form validation and valid submission.
 - Login and registration panel behavior.
+- Dashboard order deletion behavior.
+- About page content consistency.
+- Team page navigation.
 - Desktop and mobile coverage.
 - Browser console monitoring for severe errors.
 
 ## Bugs Found
 
-- `SE-WEB-001`: Product search excludes matching laptop results.
-- `SE-WEB-002`: Add To Cart shows wishlist confirmation.
+- `SE-WEB-001`: Empty email bypasses login validation.
+- `SE-WEB-002`: Invalid password shows internal server error.
+- `SE-WEB-003`: Delete order does not remove order row.
+- `SE-WEB-004`: Product search excludes matching laptop results.
+- `SE-WEB-005`: Price sort order is inverted.
+- `SE-WEB-006`: Add To Cart shows wishlist confirmation.
+- `SE-WEB-007`: Contact form submits without required name.
+- `SE-WEB-008`: Phone field accepts non-numeric characters.
+- `SE-WEB-009`: Founding year is inconsistent.
+- `SE-WEB-010`: Meet The Team navigation opens wrong page.
 
 ## Evidence
 
@@ -52,4 +63,4 @@ pnpm lint
 
 - Keep known defect tests marked until the product behavior is fixed.
 - Add visual evidence snapshots for the next public proof update.
-- Add an accessibility smoke check after the first stable suite baseline.
+- Add an accessibility smoke check after the stable defect baseline.

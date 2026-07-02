@@ -11,6 +11,8 @@ Validate the public ShopEase demo website with reliable browser automation and u
 - Product detail quantity and cart behavior.
 - Contact page form behavior.
 - Login and registration panel behavior.
+- Dashboard order management behavior.
+- Content consistency and secondary navigation.
 - Internal link health.
 - Browser console error monitoring.
 - Desktop and mobile rendering smoke coverage.

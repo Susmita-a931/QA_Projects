@@ -7,3 +7,4 @@ evidence/screenshots/raw/
 playwright-report/
 blob-report/
 .env
+ground_truth/

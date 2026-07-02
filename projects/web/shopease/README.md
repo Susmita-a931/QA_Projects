@@ -10,8 +10,15 @@ Playwright automation suite for the [ShopEase demo website](https://antester.com
 - Product detail quantity and cart interaction.
 - Contact form validation and successful submission path.
 - Login and registration panel behavior.
+- Dashboard order deletion behavior.
+- About page content consistency.
+- Team page navigation.
 - Basic console error and broken internal link checks.
 - Desktop and mobile browser coverage.
+
+## Current Findings
+
+The suite currently documents 10 confirmed product defects in [docs/bug-log.md](docs/bug-log.md).
 
 ## Commands
 
