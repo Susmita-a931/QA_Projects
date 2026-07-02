@@ -1,4 +1,4 @@
-# Website Projects
+# Web Projects
 
 Use this folder for website and web application QA automation projects.
 

@@ -9,7 +9,7 @@
 - Add evidence for meaningful automation work.
 - Prefer stable, maintainable tests over large numbers of weak tests.
 - Track flaky tests as defects in the test suite.
-- Keep temporary notes inside `Documents/Temp_Document/`.
+- Keep temporary notes inside `docs/temp-documents/`.
 
 ## Code Rules
 

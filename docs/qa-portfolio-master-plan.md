@@ -23,28 +23,28 @@ Avoid public wording that sounds generated. Public files should focus on enginee
 ```text
 QA_Projects/
   README.md
-  Documents/
-    QA_PORTFOLIO_MASTER_PLAN.md
-    Rulebook.md
-    Common_Bugs_And_Test_Ideas.md
-    Temp_Document/
+  docs/
+    qa-portfolio-master-plan.md
+    qa-rulebook.md
+    senior-bug-patterns-and-test-ideas.md
+    temp-documents/
       README.md
-  Projects/
-    Website/
+  projects/
+    web/
       <project-name>/
         app/
         tests/
         docs/
         evidence/
         .github/
-    Android/
+    android/
       <app-name>/
         app/
         tests/
         docs/
         evidence/
         .github/
-    FullStackApps/
+    full-stack-apps/
       <app-name>/
         frontend/
         backend/
@@ -53,7 +53,7 @@ QA_Projects/
         docs/
         evidence/
         .github/
-  Shared/
+  shared/
     libraries/
       web/
       api/
@@ -73,13 +73,13 @@ QA_Projects/
     reporting/
       templates/
       dashboards/
-  Evidence/
+  evidence/
     videos/
     screenshots/
     traces/
     reports/
     daily-runs/
-  Tools/
+  tools/
     scripts/
       run-daily-tests.ps1
       collect-evidence.ps1
@@ -90,9 +90,9 @@ QA_Projects/
 
 ## Project Categories
 
-### Website Projects
+### Web Projects
 
-Website projects will cover public websites, demo apps, and custom full stack applications built specifically for test proof.
+Web projects will cover public websites, demo apps, and custom full stack applications built specifically for test proof.
 
 Expected coverage:
 
@@ -167,7 +167,7 @@ Daily work can be:
 Daily output should create a dated record under:
 
 ```text
-Evidence/daily-runs/YYYY-MM-DD/
+evidence/daily-runs/YYYY-MM-DD/
   run-summary.md
   report/
   screenshots/

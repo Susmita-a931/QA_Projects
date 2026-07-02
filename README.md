@@ -22,35 +22,35 @@ The focus is not only on writing tests. The focus is on building maintainable QA
 
 ## Quick Links
 
-- [QA_PORTFOLIO_MASTER_PLAN.md](Documents/QA_PORTFOLIO_MASTER_PLAN.md)
-- [Rulebook.md](Documents/Rulebook.md)
-- [Common_Bugs_And_Test_Ideas.md](Documents/Common_Bugs_And_Test_Ideas.md)
-- [Temp_Document README](Documents/Temp_Document/README.md)
+- [qa-portfolio-master-plan.md](docs/qa-portfolio-master-plan.md)
+- [qa-rulebook.md](docs/qa-rulebook.md)
+- [senior-bug-patterns-and-test-ideas.md](docs/senior-bug-patterns-and-test-ideas.md)
+- [temporary documents](docs/temp-documents/README.md)
 
 ## Repository Structure
 
 ```text
 QA_Projects/
-  Documents/
-    QA_PORTFOLIO_MASTER_PLAN.md
-    Rulebook.md
-    Common_Bugs_And_Test_Ideas.md
-    Temp_Document/
-  Projects/
-    Website/
-    Android/
-    FullStackApps/
-  Shared/
+  docs/
+    qa-portfolio-master-plan.md
+    qa-rulebook.md
+    senior-bug-patterns-and-test-ideas.md
+    temp-documents/
+  projects/
+    web/
+    android/
+    full-stack-apps/
+  shared/
     libraries/
     configs/
     test-data/
     reporting/
-  Evidence/
+  evidence/
     videos/
     screenshots/
     reports/
     daily-runs/
-  Tools/
+  tools/
     scripts/
     local-ci/
 ```
@@ -67,8 +67,8 @@ QA_Projects/
 
 ## Review Path
 
-For a quick review, start with [QA_PORTFOLIO_MASTER_PLAN.md](Documents/QA_PORTFOLIO_MASTER_PLAN.md), then check the rulebook and common bug checklist. Project-level folders will contain their own README, test strategy, commands, reports, and selected evidence once each project is added.
+For a quick review, start with [qa-portfolio-master-plan.md](docs/qa-portfolio-master-plan.md), then check the rulebook and common bug checklist. Project-level folders will contain their own README, test strategy, commands, reports, and selected evidence once each project is added.
 
 ## Current Status
 
-Foundation is ready. Project implementations will be added under `Projects/` with daily evidence under `Evidence/daily-runs/`.
+Foundation is ready. Project implementations will be added under `projects/` with daily evidence under `evidence/daily-runs/`.

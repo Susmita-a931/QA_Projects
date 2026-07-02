@@ -34,8 +34,8 @@ Thumbs.db
 .vscode/
 
 # Temporary files
-Documents/Temp_Document/*
-!Documents/Temp_Document/README.md
+docs/temp-documents/*
+!docs/temp-documents/README.md
 temp_docs/
 Temp_Docs/
 TempDocs/
