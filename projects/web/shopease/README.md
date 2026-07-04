@@ -32,6 +32,12 @@ pnpm report
 
 Headed mode runs with one worker so the browser flow is easy to observe. Normal test runs stay parallel for faster feedback.
 
+For a human-readable page-by-page browser demo:
+
+```bash
+tools/run-demo.cmd
+```
+
 ## Test Architecture
 
 ```text
