@@ -1,5 +1,8 @@
 $ErrorActionPreference = "Stop"
 
+$projectRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
+Push-Location $projectRoot
+
 $runtimeRoot = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies"
 $nodeBin = Join-Path $runtimeRoot "node\bin"
 $pnpm = Join-Path $runtimeRoot "bin\pnpm.cmd"
@@ -14,3 +17,5 @@ if ($args.Count -gt 0) {
 } else {
   & $pnpm exec playwright test --headed --workers=1
 }
+
+Pop-Location

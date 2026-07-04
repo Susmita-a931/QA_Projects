@@ -1,5 +1,8 @@
 $ErrorActionPreference = "Stop"
 
+$projectRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
+Push-Location $projectRoot
+
 $runtimeRoot = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies"
 $nodeBin = Join-Path $runtimeRoot "node\bin"
 $pnpm = Join-Path $runtimeRoot "bin\pnpm.cmd"
@@ -10,3 +13,5 @@ Write-Host "Node:" (& node --version)
 Write-Host "Opening ShopEase Playwright HTML report..."
 
 & $pnpm exec playwright show-report evidence/reports/playwright-html
+
+Pop-Location

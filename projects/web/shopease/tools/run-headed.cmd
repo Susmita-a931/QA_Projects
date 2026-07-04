@@ -1,6 +1,8 @@
 @echo off
 setlocal
 
+pushd "%~dp0.."
+
 set "RUNTIME_ROOT=%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies"
 set "PATH=%RUNTIME_ROOT%\node\bin;%PATH%"
 set "PNPM=%RUNTIME_ROOT%\bin\pnpm.cmd"
@@ -13,3 +15,5 @@ if "%~1"=="" (
 ) else (
   "%PNPM%" exec playwright test %*
 )
+
+popd
